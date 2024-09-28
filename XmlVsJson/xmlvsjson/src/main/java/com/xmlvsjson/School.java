@@ -1,4 +1,4 @@
-package com.xmljson;
+package com.xmlvsjson;
 
 
 import jakarta.xml.bind.annotation.*;
@@ -9,18 +9,17 @@ import java.util.List;
 @XmlType(propOrder = {"name", "list"})
 @XmlAccessorType(XmlAccessType.FIELD)
 public class School {
-    
 
     @XmlElement(name ="aluno")
-    List<Aluno> list;
+    List<Student> list;
     
     String nome;
 
-    public List<Aluno> getList() {
+    public List<Student> getList() {
         return list;
     }
 
-    public void setList(List<Aluno> list) {
+    public void setList(List<Student> list) {
         this.list = list;
     }
 

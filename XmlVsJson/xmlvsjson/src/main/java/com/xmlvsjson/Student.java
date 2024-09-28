@@ -1,4 +1,4 @@
-package com.xmljson;
+package com.xmlvsjson;
 
 
 
