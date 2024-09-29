@@ -10,10 +10,10 @@ import java.util.List;
 @XmlAccessorType(XmlAccessType.FIELD)
 public class School {
 
-    @XmlElement(name ="aluno")
+    @XmlElement(name ="student")
     List<Student> list;
     
-    String nome;
+    String name;
 
     public List<Student> getList() {
         return list;
@@ -23,12 +23,12 @@ public class School {
         this.list = list;
     }
 
-    public String getNome() {
-        return nome;
+    public String getname() {
+        return name;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
+    public void setname(String name) {
+        this.name = name;
     }
 
 }

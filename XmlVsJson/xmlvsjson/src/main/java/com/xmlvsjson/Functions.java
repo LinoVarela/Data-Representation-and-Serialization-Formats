@@ -24,16 +24,17 @@ public class Functions {
                 }
                 school = new School();
                 students = new ArrayList<>();
-                school.setNome(line);
+                school.setname(line);  // School name, e.g. "School XYZ"
             } else {
                 String[] parts = line.split(" ");
                 Student student = new Student();
-                student.setId(Integer.parseInt(parts[0]));
-                student.setName(parts[1]);
+                student.setId(Integer.parseInt(parts[0])); // First part is student ID
+                student.setName(parts[1]);                 // Second part is student name
                 students.add(student);
             }
         }
 
+        // Add the last school
         if (school != null) {
             school.setList(students);
             schools.add(school);

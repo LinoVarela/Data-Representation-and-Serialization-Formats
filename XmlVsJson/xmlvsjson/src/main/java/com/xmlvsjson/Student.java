@@ -12,7 +12,7 @@ import org.eclipse.persistence.oxm.annotations.XmlCDATA;
 
 @XmlRootElement
 @XmlAccessorType(XmlAccessType.FIELD)
-public class Aluno {
+public class Student {
     
 
     
