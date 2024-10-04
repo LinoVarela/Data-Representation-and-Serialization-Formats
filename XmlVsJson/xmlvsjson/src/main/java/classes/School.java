@@ -1,4 +1,4 @@
-package com.xmlvsjson;
+package classes;
 
 
 import jakarta.xml.bind.annotation.*;

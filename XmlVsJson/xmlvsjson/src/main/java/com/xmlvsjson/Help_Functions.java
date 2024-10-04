@@ -6,7 +6,10 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Functions {
+import classes.School;
+import classes.Student;
+
+public class Help_Functions {
 
     public static List<School> readSchoolDataFromTextFile(String filePath) throws IOException {
         List<School> schools = new ArrayList<>();
